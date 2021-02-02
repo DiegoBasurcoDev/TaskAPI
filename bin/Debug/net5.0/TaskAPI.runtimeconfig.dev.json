@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Phantamium\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Phantamium\\.nuget\\packages"
+    ]
+  }
+}
