@@ -1,0 +1,14 @@
+CREATE TABLE Author(
+	AuthorID INT IDENTITY,
+	Name VARCHAR(150),
+	LastName VARCHAR(150),
+	UserName VARCHAR(15),
+	Password VARCHAR(15),
+);
+
+CREATE TABLE Task(
+	ID INT IDENTITY,
+	Name VARCHAR(50),
+	Content VARCHAR(450),
+	AuthorID INT FOREIGN KEY REFERENCES Author(AuthorID),
+);
